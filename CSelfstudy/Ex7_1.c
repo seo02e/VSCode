@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    int age;
-    printf("?êµ¹?ì” ç‘œ? ?ì—¯?ì °?ë¸¯?ê½­?ìŠ‚ :");
-    scanf("%d", &age);
-    if(age <= 6 || age >= 70)
-        printf("è‡¾ëŒ€ì¦º?ì—¯?ì˜£?ì—¯?ë•²?ë–.\n");
-    else
-        printf("?ì—¯?ì˜£çŒ·ëš®ë’— 3,000?ì?ì—¯?ë•²?ë–.\n");
-    return 0;
+    int num=0, sum=0;
+    printf("¾ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%d", &num);
+    while(num >=0) {
+        sum += num;
+        printf("Áö±İ±îÁö ÀÔ·ÂµÈ °ªÀÇ ÇÕ :%d\n", sum);
+        printf("¾ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+        scanf("%d", &num);
+    }
+
 }
