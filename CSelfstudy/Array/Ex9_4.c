@@ -9,5 +9,5 @@ int main(){
         str2[i] = str1[i];
     }
     printf("복사된 문자열 : %s", str2);
-
+    return 0;
 }
