@@ -1,9 +1,6 @@
 #include <iostream>
 
 #include "Adder.h"
-#include "Adder.h"
-#include "Adder.h"
-
 using namespace std;
 class Calculator{
     public:
