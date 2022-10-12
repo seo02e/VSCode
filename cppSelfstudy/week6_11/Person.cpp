@@ -11,7 +11,7 @@ public:
     int getAge();
     ~Person();
 };
-Person::Person(): name("Anonymous"), age(0){  
+Person::Person(): name("Anonymous"), age(0){
     cout << "생성자 수행 "<< name<<','<<age<<endl;
 }
 Person::Person(string na, int a): name(na), age(a) {

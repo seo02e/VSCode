@@ -8,6 +8,7 @@ using Bank::MENU;
 int main(){
     Account a("C++", 0);
     int menu , money;
+    cout << "20215135_김준서"<<endl;
     do{
         cout << "---------------------------------" << endl;
         cout << "menu : 1. 입금, 2. 출금 3. 조회 4. 종료 >> ";
