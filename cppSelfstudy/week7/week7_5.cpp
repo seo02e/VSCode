@@ -22,6 +22,9 @@ int main() {
 
  Rec *arr = new Rec[4]{{3,4},{1,2},{5,6} };
 
+auto arr = make_unique<Rec[]>(4);
+delete []arr;
+
 
 
 
